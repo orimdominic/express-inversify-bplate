@@ -1,0 +1,26 @@
+{
+  "name": "express-inversify-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write src/*.ts",
+    "start:dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/inversify": "^2.0.33",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.4.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "inversify": "^6.0.1",
+    "inversify-express-utils": "^6.4.3",
+    "reflect-metadata": "^0.1.13"
+  }
+}
