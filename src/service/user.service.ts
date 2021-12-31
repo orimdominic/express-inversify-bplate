@@ -6,7 +6,7 @@ export class UserService {
   constructor(private userRepo: UserRepository){}
 
   async createUser(){
-    const res = await this.userRepo.createUsers()
+    const res = await this.userRepo.createUser()
     return `op: userService.createUser
 ${res}
   `}
